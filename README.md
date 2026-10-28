@@ -37,15 +37,14 @@ codex plugin add document-first-development@document-first-development-marketpla
 - [安装与跨主机迁移](docs/install.md)
 - [维护与分发](docs/maintenance.md)
 - [插件设计基线](docs/design.md)
-- [场景验证](validation/scenarios.md) · [验证记录](validation/report.md)
 
 ## 支持边界
 
-目标客户端为 Codex 桌面端与 CLI，共用一个插件包；IDE 扩展不纳入本期支持。实际验证情况以验证记录为准，包结构检查不等于客户端验收。
+目标客户端为 Codex 桌面端与 CLI，共用一个插件包；IDE 扩展不纳入本期支持。包结构检查不等于客户端验收。
 
 使用流程不要求 MCP、专属 API、特定 shell、其他技能或联网服务。仓库检查脚本仅供维护者使用，不是技能运行依赖。
 
-插件仓库只维护通用规则、空白模板和虚构验证样例。具体项目的主契约、进度、Issue、决策、路径与日志由项目自行维护，不回写插件。
+插件仓库只维护通用规则、流程、空白模板及安装维护说明。具体项目的主契约、进度、Issue、决策、路径与日志由项目自行维护，不回写插件。
 
 ## 许可证
 

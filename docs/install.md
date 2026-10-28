@@ -1,6 +1,6 @@
 # 安装与跨主机迁移
 
-插件名：`document-first-development`。Marketplace 名：`document-first-development-marketplace`。目标是 Codex 桌面端与 CLI 共用同一份包；实际覆盖见 [验证记录](../validation/report.md)。
+插件名：`document-first-development`。Marketplace 名：`document-first-development-marketplace`。目标是 Codex 桌面端与 CLI 共用同一份包，客户端兼容性需分别实测。
 
 ## 从 GitHub 安装
 
