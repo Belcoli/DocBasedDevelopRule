@@ -2,6 +2,17 @@
 
 本文件只记录插件制作与验证事实，不定义设计。当前设计依据见 [设计基线](../docs/design.md)。
 
+## 0.1.3 GitHub 分发验证
+
+- 日期：2026-10-28。
+- 目标仓库：[Belcoli/DocBasedDevelopRule](https://github.com/Belcoli/DocBasedDevelopRule)，分支 `main`。
+- 保留远端初始化历史与 MIT License；插件内容已在 [4caf7f7](https://github.com/Belcoli/DocBasedDevelopRule/commit/4caf7f79b5244912bfedd9a00aa0776439ee9344) 推送。README 与安装说明已使用实际仓库地址。
+- 从 GitHub 来源在独立 Codex 配置中完成 marketplace 添加、0.1.3 安装与启用检查，三条命令均成功。
+- 远端安装副本的 20 个文件与本地源码逐一 SHA-256 一致。相较此前客户端验收的 19 个文件，分发包新增了一份 MIT 许可证；技能入口、规则、流程和模板未变。
+- 首次隔离安装因测试目录过长触发 Windows 文件路径长度错误；换用较短标准临时目录后通过，未修改全局 Git 配置。
+- 本次分发检查未启动模型任务，也未切换日常安装的本地来源；已有客户端行为结果及其范围见下方记录。
+- 此记录证明 GitHub 源码分发与安装链可用，不代表已上架公共插件目录或完成跨主机行为验收。
+
 ## 0.1.3 客户端实测
 
 - 日期：2026-10-28。
