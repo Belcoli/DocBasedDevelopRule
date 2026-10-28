@@ -1,0 +1,2 @@
+# DocBasedDevelopRule
+codex插件，描述一种基于文档的开发流程与开发规范
