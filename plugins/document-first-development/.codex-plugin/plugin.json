@@ -1,0 +1,13 @@
+{
+  "name": "document-first-development",
+  "version": "0.1.3",
+  "description": "Document-first, master-contract-driven development guidelines with scoped gates, evidence-aware progress, and project-owned documentation.",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "文档先行开发",
+    "shortDescription": "以主契约统一设计，用独立进度与 Issue 管理实施、验证和门禁。",
+    "longDescription": "为明确接入的项目提供文档先行开发规范、任务裁剪、需求变更、已有项目映射和跨对话交接。主契约独占有效设计；具体项目资料留在项目侧。",
+    "category": "Productivity",
+    "defaultPrompt": "使用 $document-first-development:document-first-development 识别当前项目的文档体系，并为本次任务确定适用流程。"
+  }
+}

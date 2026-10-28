@@ -1,0 +1,4 @@
+interface:
+  display_name: "文档先行开发"
+  short_description: "以主契约统一有效设计，按任务管理独立进度、问题门禁与验证证据"
+  default_prompt: "使用 $document-first-development:document-first-development，先识别项目文档入口和本次授权范围，再按适用流程处理任务。"

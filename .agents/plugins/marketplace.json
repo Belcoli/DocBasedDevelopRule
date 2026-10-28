@@ -1,0 +1,20 @@
+{
+  "name": "document-first-development-marketplace",
+  "interface": {
+    "displayName": "Document First Development"
+  },
+  "plugins": [
+    {
+      "name": "document-first-development",
+      "source": {
+        "source": "local",
+        "path": "./plugins/document-first-development"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
